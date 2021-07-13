@@ -2,3 +2,6 @@
 
 ## Language: `C#`
 
+### Code Challenge 1
+
+![Lab01](../c-sharp/images/CodeChallenge1.png)
