@@ -4,4 +4,4 @@
 
 ### Code Challenge 1
 
-![Lab02](../c-sharp/images/CodeChallenge1.png)
+![Lab01](../c-sharp/images/CodeChallenge1.png)
