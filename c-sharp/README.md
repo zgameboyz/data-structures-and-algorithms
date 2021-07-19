@@ -1,3 +1,8 @@
+
+# Data Structures and Algorithms
+
+## Language: `C#`
+
 # Data Structures and Algorithms
 
 ## Collaborator 
@@ -15,3 +20,4 @@ Miriam Silva and Joel Connell
 
 ### Code Challenge 3
 ![Lab03](../c-sharp/images/CodeChallenge3.PNG)
+
