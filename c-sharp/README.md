@@ -21,3 +21,5 @@ Miriam Silva and Joel Connell
 ### Code Challenge 3
 ![Lab03](../c-sharp/images/CodeChallenge3.PNG)
 
+### Code Challenge 6
+![Lab06](../c-sharp/images/CodeChallenge6.png)
