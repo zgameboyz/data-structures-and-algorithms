@@ -13,13 +13,17 @@ Miriam Silva and Joel Connell
 
 ### Code Challenge 1
 
-![Lab01](../c-sharp/images/CodeChallenge1.png)
+![Challenge1](../c-sharp/images/CodeChallenge1.png)
 
 ### Code Challenge 2
-![Lab02](../c-sharp/images/CodeChallenge2.png)
+![Challenge2](../c-sharp/images/CodeChallenge2.png)
 
 ### Code Challenge 3
-![Lab03](../c-sharp/images/CodeChallenge3.PNG)
+![Challenge3](../c-sharp/images/CodeChallenge3.PNG)
 
 ### Code Challenge 6
-![Lab06](../c-sharp/images/CodeChallenge6.png)
+![Challenge6](../c-sharp/images/CodeChallenge6.png)
+
+### Code Challenge 7
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
