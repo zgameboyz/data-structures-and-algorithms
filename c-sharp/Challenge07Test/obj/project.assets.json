@@ -1670,16 +1670,6 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "Challenge07/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Challenge07.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Challenge07.dll": {}
-        }
       }
     }
   },
@@ -5916,16 +5906,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "Challenge07/1.0.0": {
-      "type": "project",
-      "path": "../Challenge07/Challenge07.csproj",
-      "msbuildProject": "../Challenge07/Challenge07.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Challenge07 >= 1.0.0",
+      "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07\\Challenge07.csproj",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -5940,9 +5925,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07Test\\Challenge07Test.csproj",
-      "projectName": "Challenge07Test",
-      "projectPath": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07Test\\Challenge07Test.csproj",
+      "projectUniqueName": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07Test\\Challenge08Test.csproj",
+      "projectName": "Challenge08Test",
+      "projectPath": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07Test\\Challenge08Test.csproj",
       "packagesPath": "C:\\Users\\joelc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -6022,5 +6007,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07\\Challenge07.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\joelc\\Documents\\projects\\codefellows\\data-structures-and-algorithms\\c-sharp\\Challenge07\\Challenge07.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

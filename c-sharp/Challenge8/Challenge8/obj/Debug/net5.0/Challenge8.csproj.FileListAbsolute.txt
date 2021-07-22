@@ -1,0 +1,16 @@
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.exe
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.deps.json
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.runtimeconfig.json
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.runtimeconfig.dev.json
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.dll
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\ref\Challenge8.dll
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\bin\Debug\net5.0\Challenge8.pdb
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.csprojAssemblyReference.cache
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.AssemblyInfoInputs.cache
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.AssemblyInfo.cs
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.csproj.CoreCompileInputs.cache
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.dll
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\ref\Challenge8.dll
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.pdb
+C:\Users\joelc\Documents\projects\codefellows\data-structures-and-algorithms\c-sharp\Challenge8\Challenge8\obj\Debug\net5.0\Challenge8.genruntimeconfig.cache
