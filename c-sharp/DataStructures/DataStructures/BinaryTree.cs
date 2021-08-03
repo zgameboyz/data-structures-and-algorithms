@@ -40,14 +40,14 @@ namespace DataStructures
       return values;
     }
 
-    public List<int> LevelOrderTraversal(BinarySearchTree<int> tree)
+    public static List<int> LevelOrderTraversal(BinaryTree<int> tree)
     {
       List<int> values = new List<int>();
       Queue<Node<int>> nodes = new Queue<Node<int>>();
 
       nodes.Enqueue(tree.Root);
 
-      while(nodes.Peek() != null)
+      while(nodes.Front != null)
       {
         Node<Node<int>> node = nodes.Dequeue();
         Node<int> currentNode = node.Value;
@@ -101,5 +101,7 @@ namespace DataStructures
       }
       return res;
     }
+
   }
+
 }
