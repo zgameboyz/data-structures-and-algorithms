@@ -29,24 +29,7 @@ Extra help from Benjamin Ibarra
 
 ![Challenge7](../c-sharp/images/Challenge07.JPG)
 
-### Code Challenge 8
+### Code Challenge 16
 
-![Challenge7](../c-sharp/images/Challenge07.JPG)
+![Challenge16](../c-sharp/images/CodeChallenge16.JPG)
 ### Code Challenge 9
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
-### Code Challenge 10
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
-
-### Code Challenge 11
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
-
-### Code Challenge 12
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
-
-### Code Challenge 13
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
