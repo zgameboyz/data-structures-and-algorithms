@@ -1,7 +1,8 @@
-#Code Challenge 11
+#Code Challenge 17
 
 ## Whiteboard
-![Pseudo-Code](../WhiteBoards/Challenge11.JPG
+![Whiteboard](../images/CodeChallenge17.png)
 
 ## With Help From:
-- Joel Connell
+
+Benjamin Ibarra
