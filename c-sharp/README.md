@@ -31,5 +31,5 @@ Extra help from Benjamin Ibarra
 
 ### Code Challenge 16
 
-![Challenge16](../c-sharp/images/CodeChallenge16.JPG)
-### Code Challenge 9
+![Challenge16](../c-sharp/images/CodeChallenge16.png)
+
