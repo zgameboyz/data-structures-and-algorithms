@@ -41,7 +41,7 @@ namespace Challenge07
     public void Append(int value)
     {
       Node node = new Node(value);
-      if(Head ==null)
+      if (Head == null)
       {
         Head = node;
         return;
@@ -70,54 +70,135 @@ namespace Challenge07
         break;
       }
     }
-
-    public void InsertAfter(int value, int newValue)
+    public bool Palindrome(LinkedList list)
     {
-      Node newNode = new Node(newValue);
-      Node current = Head;
-      Node tempNode = current;
+      int listLength = 0;
+      int newCount = 0;
+
+      Node current = list.Head;
       while (current != null)
       {
-        if (current.Value == value)
-        {
 
-          tempNode = current.Next;
-          current.Next = newNode;
-          newNode.Next = tempNode;
-          break;
-        }
+        current = current.Next;
+
+        listLength++;
+}
+      int[] blah = new int[listLength];
+
+      int[] halb = new int[listLength];
+
+      for (int i = 0; i < blah.Length; i++)
+
+      {
+        blah[i] = current.Value;
         current = current.Next;
       }
+
+      for (int i = blah.Length; i > 0; i--)
+
+{
+
+
+
+        halb[i] = current.Value;
+
+
+
+        current = current.Next;
+
+
+
+      }
+
+      for (int i = 0; i < blah.Length; i++)
+
+{
+
+
+
+        if (halb[i] == blah[i])
+        {
+
+
+
+          newCount++;
+
+
+
+        }
+        else
+        {
+          return false;
+        }
+
+
+        if (newCount == blah.Length)
+
+        {
+
+          return true;
+
+        }
+
+        else
+
+        {
+
+          return false;
+
+        }
+
+      }
+
     }
-    public int returnNodeValue(int k)
+  
+  public void InsertAfter(int value, int newValue)
+  {
+    Node newNode = new Node(newValue);
+    Node current = Head;
+    Node tempNode = current;
+    while (current != null)
     {
-      Node current = Head;
-      int initialCount = 0;
-      while (current != null)
+      if (current.Value == value)
       {
-        current = current.Next;
-        initialCount++;
-      }
-      int count = initialCount - k;
-      Console.WriteLine(count);
 
-      current = Head;
-      Console.WriteLine(current.Value);
-      if (k <= initialCount && k >=0)
-      {
-        for (int i = 0; i < count - 1; i++)
-
-        {
-          current = current.Next;
-        }
-        Console.WriteLine(current.Value);
-        return current.Value;
+        tempNode = current.Next;
+        current.Next = newNode;
+        newNode.Next = tempNode;
+        break;
       }
-      else
-      {
-        Console.WriteLine("that number is too big or less than zero");
-        return 0;
-      }
+      current = current.Next;
     }
   }
+  public int returnNodeValue(int k)
+  {
+    Node current = Head;
+    int initialCount = 0;
+    while (current != null)
+    {
+      current = current.Next;
+      initialCount++;
+    }
+    int count = initialCount - k;
+    Console.WriteLine(count);
+
+    current = Head;
+    Console.WriteLine(current.Value);
+    if (k <= initialCount && k >= 0)
+    {
+      for (int i = 0; i < count - 1; i++)
+
+      {
+        current = current.Next;
+      }
+      Console.WriteLine(current.Value);
+      return current.Value;
+    }
+    else
+    {
+      Console.WriteLine("that number is too big or less than zero");
+      return 0;
+    }
+  }
+}
 }

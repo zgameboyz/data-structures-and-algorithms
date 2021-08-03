@@ -8,6 +8,7 @@
 ## Collaborator 
 
 Miriam Silva and Joel Connell
+Extra help from Benjamin Ibarra
 
 ## Language: `C#`
 
@@ -25,5 +26,27 @@ Miriam Silva and Joel Connell
 ![Challenge6](../c-sharp/images/CodeChallenge6.png)
 
 ### Code Challenge 7
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+
+### Code Challenge 8
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+### Code Challenge 9
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+### Code Challenge 10
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+
+### Code Challenge 11
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+
+### Code Challenge 12
+
+![Challenge7](../c-sharp/images/Challenge07.JPG)
+
+### Code Challenge 13
 
 ![Challenge7](../c-sharp/images/Challenge07.JPG)
