@@ -12,19 +12,13 @@ Miriam Silva and Joel Connell
 
 ### Code Challenge 1
 
-[Challenge1](./images.md)
+[Challenge1 Whiteboard](./images.md)
 
 ### Code Challenge 2
-[Challenge2](./images.md)
+[Challenge2 Whiteboard](./images.md)
 
 ### Code Challenge 3
 
-[Challenge 3](./images.md)
+[Challenge 3 Whiteboard](./images.md)
 
 
-### Code Challenge 6
-![Challenge6](../c-sharp/images/CodeChallenge6.png)
-
-### Code Challenge 7
-
-![Challenge7](../c-sharp/images/Challenge07.JPG)
