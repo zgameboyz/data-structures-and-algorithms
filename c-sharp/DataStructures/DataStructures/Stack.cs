@@ -37,7 +37,7 @@ namespace DataStructures
     //Checks is the stack is empty
     public bool IsEmpty()
     {
-      if (Top != null)
+      if (Top == null)
       {
         return true;
       }
