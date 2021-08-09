@@ -8,6 +8,8 @@
 
 Miriam Silva and Joel Connell
 
+This is my Code challenge readme and it will link to the images or the specific class file.
+
 ## Language: `C#`
 
 ### Code Challenge 1
@@ -34,3 +36,11 @@ Miriam Silva and Joel Connell
 [Challenge 10 code Queue](./Queue.cs)
 
 [Queue Tests](./QueueTest.cs)
+
+### Code Challenge 11
+
+[Challenge 11 PseudoQueueClass](./PseudoQueue.cs)
+
+[Challenge 11 PseudoQueueTest](./PseudoQueueTest.cs)
+
+
