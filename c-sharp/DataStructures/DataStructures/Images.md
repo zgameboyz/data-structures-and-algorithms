@@ -20,6 +20,9 @@ Miriam Silva and Joel Connell
 ### Code Challenge 3
 ![Challenge3](./images/CodeChallenge3.png)
 
+### Code Challenge 9
+![Challenge9](./images/CodeChallenge9.png)
+
 
 
 
