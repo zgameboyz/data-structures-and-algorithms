@@ -10,6 +10,7 @@ namespace DataStructures
   {
     public T Value { get; set; }
 
+    public List<Node<T>> Children { get; set; }
     public Node<T> Next { get; set; }
     public Node<T> Left { get; set; }
     public Node<T> Right { get; set; }
@@ -19,6 +20,7 @@ namespace DataStructures
 
     public Node(T value)
     {
+      Children = new List<Node<T>>();
       Value = value;
     }
   }
