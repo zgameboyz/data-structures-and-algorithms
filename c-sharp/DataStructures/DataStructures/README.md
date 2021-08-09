@@ -21,4 +21,7 @@ Miriam Silva and Joel Connell
 
 [Challenge 3 Whiteboard](./images.md)
 
+### Code Challenge 9
+
+[Challenge 3 Whiteboard](./images.md)
 
