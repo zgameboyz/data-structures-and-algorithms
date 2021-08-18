@@ -23,19 +23,26 @@ int[] Mergsort(arr)
         Merge(left, right, arr);
     }
 }
-[Part1](./Part1.PNG)
+
+![Part1](./Part1.PNG)
 
 ==================================================================
 
 We call our original method recursively, starting with the left. This will also occur with the right, however left is the one to focus on for the moment as we are one level deep within recursion.
 Mergesort(left)
 Mergesort(right)
-[Part2](./Part2.PNG)
+
+![Part2](./Part2.PNG)
+
 Our leftmost array is called upon once again through merge sort function. The same thing will be happening on the right side, but we continue with the left first.
-[Part3](./Part3.PNG)
+
+![Part3](./Part3.PNG)
+
 We continue with this process on the leftmost array until we boil down to the left array's individual elements (15 and 26). Since we reach our condition of n (array length) being equal to 1 and not lesser than 1, we do not continue recursion down the left side.
 Image below shows all of the individual elements when our recursion is complete. Now the merge method begins.
-[Part4](./Part4.PNG)
+
+![Part4](./Part4.PNG)
+
 Once both left and right recursion is complete, the next method (Merge) is called on both those left and right arrays (starting with the arrays that have only length of 1). The array that is being passed in with this instance is our original array that we are modifying.
 void Merge(left, right, arr)
 {
@@ -60,8 +67,10 @@ void Merge(left, right, arr)
         k++;
     }
 }
-[Part5](./Part5.PNG)
-The process above is repeated each time our Merge function is called, and the left/right values keep growing until we are left with the entire sorted array.
-[Part6](./Part6.PNG)
+![Part5](./Part5.PNG)
 
-[Part7](./Part7.PNG)
+The process above is repeated each time our Merge function is called, and the left/right values keep growing until we are left with the entire sorted array.
+
+![Part6](./Part6.PNG)
+
+![Part7](./Part7.PNG)
