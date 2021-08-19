@@ -1,20 +1,34 @@
+using DataStructures;
 using System;
-using System.Collections.Generic;
 
 namespace DataStructures
 {
-  class Program : InsertionSort
+  class Program : QuickSort
   {
     static void Main(string[] args)
     {
-      int[] arr = { 2, 6, 8, 7, 1 };
-      int[] sorted = InsertionSortArray(arr);
-      for (int i =0; i <arr.Length; i++) {
+      int[] arr = { 2, 6, 8, 7, 1,9,10,58 };
 
 
-        Console.WriteLine(sorted[i]);
 
+
+      QuicksortArray(arr, 0, arr.Length - 1);
+
+
+      for (int i = 0; i < arr.Length; i++)
+      {
+        Console.WriteLine(arr[i]);
       }
+
+
+
+
+      //for (int i =0; i <arr.Length; i++) {
+
+
+      //  Console.WriteLine(sorted[i]);
+
+      //}
       //BinaryTree<int> tree = new BinaryTree<int>();
 
       //Node<int> One = new Node<int>(2);
