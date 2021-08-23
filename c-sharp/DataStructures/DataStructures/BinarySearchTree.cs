@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataStructures
 {
@@ -12,7 +8,7 @@ namespace DataStructures
     {
       Node<T> newNode = new Node<T>(value);
 
-      if( Root == null)
+      if (Root == null)
       {
         Root = newNode;
         return;

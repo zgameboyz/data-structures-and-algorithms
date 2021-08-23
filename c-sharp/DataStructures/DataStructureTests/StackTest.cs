@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using DataStructures;
 using Xunit;
 
 namespace DataStructuresTest
@@ -15,8 +12,8 @@ namespace DataStructuresTest
       stack.Push(5);
 
       Assert.True(stack.Peek());
-
     }
+
     [Fact]
     public void PushMultipleToStack()
     {
@@ -27,11 +24,9 @@ namespace DataStructuresTest
       stack.Push(4);
 
       Assert.Equal(4, stack.Top.Value);
-    
-
     }
-    [Fact]
 
+    [Fact]
     public void CanEmptyStack()
     {
       DataStructures.Stack<int> stack = new DataStructures.Stack<int>();
@@ -47,9 +42,5 @@ namespace DataStructuresTest
       stack.Peek();
       Assert.True(stack.IsEmpty());
     }
-
-
-
-
   }
 }
