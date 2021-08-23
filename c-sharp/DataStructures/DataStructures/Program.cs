@@ -1,31 +1,21 @@
-using DataStructures;
 using System;
 
 namespace DataStructures
 {
-  class Program : QuickSort
+  internal class Program : QuickSort
   {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-      int[] arr = { 2, 6, 8, 7, 1,9,10,58 };
-
-
-
+      int[] arr = { 2, 6, 8, 7, 1, 9, 10, 58 };
 
       QuicksortArray(arr, 0, arr.Length - 1);
-
 
       for (int i = 0; i < arr.Length; i++)
       {
         Console.WriteLine(arr[i]);
       }
 
-
-
-
       //for (int i =0; i <arr.Length; i++) {
-
-
       //  Console.WriteLine(sorted[i]);
 
       //}

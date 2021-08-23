@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DataStructures
 {
   public class Stack<T>
@@ -55,20 +49,14 @@ namespace DataStructures
     public const string closingBrackets2 = "}";
     public const string closingBrackets3 = ")";
 
-    public void  IsBalanced(T f)
+    public void IsBalanced(T f)
     {
       Node<T> node = new Node<T>(f);
-
-
 
       while (!Top.Equals(openingBrackets1) || !Top.Equals(openingBrackets2) || !Top.Equals(openingBrackets3))
       {
         Top = Top.Next;
       }
-
     }
   }
-
-
 }
-

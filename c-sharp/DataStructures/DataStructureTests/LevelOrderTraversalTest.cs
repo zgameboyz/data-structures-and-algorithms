@@ -1,6 +1,6 @@
+using DataStructures;
 using System;
 using System.Collections.Generic;
-using DataStructures;
 using Xunit;
 
 namespace DataStructuresTest
@@ -11,8 +11,6 @@ namespace DataStructuresTest
     public void LevelOrderTraversalTesting()
     {
       BinaryTree<int> tree = new BinaryTree<int>();
-
-     
 
       Node<int> One = new Node<int>(2);
       Node<int> Two = new Node<int>(7);
@@ -40,12 +38,7 @@ namespace DataStructuresTest
         Console.Write($"{num} ");
       }
 
-
-
       Assert.Equal(list, LevelOrderTraversal(tree));
-
-
     }
-
   }
 }

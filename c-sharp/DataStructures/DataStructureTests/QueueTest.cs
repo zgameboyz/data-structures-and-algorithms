@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using DataStructures;
 using Xunit;
 
 namespace DataStructuresTest
@@ -15,8 +12,8 @@ namespace DataStructuresTest
       queue.Enqueue(5);
 
       Assert.Equal(5, queue.Front.Value);
-
     }
+
     [Fact]
     public void AddMultipleToQueue()
     {
@@ -31,11 +28,10 @@ namespace DataStructuresTest
       Assert.Equal(3, queue.Front.Value);
       queue.Dequeue();
       Assert.Equal(4, queue.Front.Value);
-
     }
-    [Fact]
 
-   public void CanEmptyQueue()
+    [Fact]
+    public void CanEmptyQueue()
     {
       DataStructures.Queue<int> queue = new DataStructures.Queue<int>();
 
@@ -49,9 +45,5 @@ namespace DataStructuresTest
 
       Assert.Null(queue.Front);
     }
-
-    
-
-
   }
 }

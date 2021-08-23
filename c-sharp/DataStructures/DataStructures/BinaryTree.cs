@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataStructures
 {
@@ -14,7 +10,7 @@ namespace DataStructures
     {
       values.Add(node.Value);
 
-      if (node.Left != null) {PreOrderTraversal(node.Left, values); }
+      if (node.Left != null) { PreOrderTraversal(node.Left, values); }
       if (node.Right != null) { PreOrderTraversal(node.Right, values); }
       return values;
     }
@@ -32,7 +28,7 @@ namespace DataStructures
 
     public List<int> PostOrderTraversal(Node<int> node, List<int> values)
     {
-      if(node.Left != null) { PostOrderTraversal(node.Left, values); }
+      if (node.Left != null) { PostOrderTraversal(node.Left, values); }
       if (node.Right != null) { PostOrderTraversal(node.Right, values); }
 
       values.Add(node.Value);
@@ -47,14 +43,14 @@ namespace DataStructures
 
       nodes.Enqueue(tree.Root);
 
-      while(nodes.Front != null)
+      while (nodes.Front != null)
       {
         Node<Node<int>> node = nodes.Dequeue();
         Node<int> currentNode = node.Value;
 
         values.Add(currentNode.Value);
 
-        if( currentNode.Left != null) { nodes.Enqueue(currentNode.Left); }
+        if (currentNode.Left != null) { nodes.Enqueue(currentNode.Left); }
         if (currentNode.Right != null) { nodes.Enqueue(currentNode.Right); }
       }
       return values;
@@ -91,7 +87,7 @@ namespace DataStructures
       int lRes = findMax(node.Left);
       int rRes = findMax(node.Right);
 
-      if(lRes > res)
+      if (lRes > res)
       {
         res = lRes;
       }
@@ -101,9 +97,5 @@ namespace DataStructures
       }
       return res;
     }
-
-    
-
   }
-
 }
