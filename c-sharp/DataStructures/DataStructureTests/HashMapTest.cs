@@ -13,7 +13,7 @@ namespace DataStructuresTest
     public void CanAddValue()
     {
 
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
@@ -26,7 +26,7 @@ namespace DataStructuresTest
     [Fact]
     public void CanGetValue()
     {
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
@@ -37,7 +37,7 @@ namespace DataStructuresTest
     [Fact]
     public void CanHandleNull()
     {
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
@@ -48,7 +48,7 @@ namespace DataStructuresTest
     [Fact]
     public void CanHandleCollisions()
     {
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
@@ -61,7 +61,7 @@ namespace DataStructuresTest
     [Fact]
     public void CanRetreiveBucketCollisions()
     {
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
@@ -74,7 +74,7 @@ namespace DataStructuresTest
     [Fact]
     public void CanHashKey()
     {
-      HashMap potatoNames = new HashMap(1024);
+      HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
       potatoNames.Set("plopy", "MashedPotato");
