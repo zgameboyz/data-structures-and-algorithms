@@ -1,5 +1,8 @@
 # Data Structures and Algorithms
 
+
+#Code Challenge 31
+
 ## Problem Domain
 
 We are to take in a string and find the repeated words in the string using a method and return the repeated word back.
@@ -24,4 +27,21 @@ Next, We used the primary method to find the first repeated value.
 
 ![Code Challenge 31](Code-Challenge-31.png)
 
+# Code Challenge 33
 
+## Problem Domain
+
+Take in two hashtables and join them together into a single data structure
+
+## Collaborator 
+
+The entire Class 
+
+## Language: `C#`
+
+
+
+
+
+### Code Challenge 31 Whiteboard Process
+![Code Challenge 33](cc33.png)

@@ -8,7 +8,7 @@ namespace DataStructures
     {
       string[] filtered = RemoveSpecialChars(words);
 
-      HashMap storage = new HashMap(64);
+      HashMapPrimary storage = new HashMapPrimary(64);
 
       foreach (string word in filtered)
       {

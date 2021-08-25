@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-  public class HashMap
+  public class HashMapPrimary
   {
 
-    private LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
+    public LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
 
     /// <summary>
     /// 
     /// </summary>
     /// <param name="size">Number of Buckets</param>
-    public HashMap(int size)
+    public HashMapPrimary(int size)
     {
       // Create a list of the size
       Map = new LinkedList<KeyValuePair<string, string>>[size];
