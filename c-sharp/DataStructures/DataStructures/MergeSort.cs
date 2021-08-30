@@ -1,15 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DataStructures
 {
-  class MergeSort
+  internal class MergeSort
 
   {
-
     //    // Merges two subarrays of []arr.
     //    // First subarray is arr[l..m]
     //    // Second subarray is arr[m+1..r]

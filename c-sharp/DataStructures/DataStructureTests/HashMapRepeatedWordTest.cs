@@ -45,8 +45,6 @@ namespace DataStructureTests
       string answer = RepeatedWord(words);
 
       Assert.True(answer == "lke");
-      
     }
-
   }
 }

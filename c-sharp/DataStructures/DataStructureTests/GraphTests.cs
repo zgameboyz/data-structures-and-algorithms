@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
+
+namespace DataStructureTests
+{
+  public class GraphTests : DataStructures.GraphMethods<string>
+  {
+    [Fact]
+    public void CanShowAllNodes()
+    {
+      Graph<string> graph = new Graph<string>();
+
+      var aNode = graph.AddNode("A");
+      var bNode = graph.AddNode("B");
+      var cNode = graph.AddNode("C");
+      var dNode = graph.AddNode("D");
+      var eNode = graph.AddNode("E");
+
+
+      graph.AddEdge(aNode, bNode, 2);
+      graph.AddEdge(aNode, cNode, 4);
+      graph.AddEdge(bNode, cNode, 5);
+      graph.AddEdge(dNode, eNode, 8);
+      graph.AddEdge(aNode, eNode, 3);
+
+      List<Vertex<string>> allVertex = new();
+      allVertex.Add(aNode);
+      allVertex.Add(bNode);
+      allVertex.Add(cNode);
+      allVertex.Add(dNode);
+      allVertex.Add(eNode);
+
+
+
+      Assert.Equal(allVertex, graph.GetNodes());
+
+
+    }
+
+    [Fact]
+    public void CanCatchNull()
+    {
+      Graph<string> graph = new Graph<string>();
+
+      Assert.Null(graph.GetNodes());
+    }
+  }
+}
