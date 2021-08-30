@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataStructures
 {
@@ -13,6 +9,7 @@ namespace DataStructures
     public LinkedList()
     {
     }
+
     //This will print the node list
     public string Print()
     {
@@ -23,21 +20,21 @@ namespace DataStructures
         nodeName = ($"({current.Value}) =>");
         Console.Write(nodeName);
         current = current.Next;
-
       }
       return nodeName;
     }
-    //This will allow you to insert nodes 
+
+    //This will allow you to insert nodes
     public void Insert(T value)
     {
       Node<T> node = new Node<T>(value);
       if (Head != null)
       {
         node.Next = Head;
-
       }
       Head = node;
     }
+
     public void Append(T value)
     {
       Node<T> node = new Node<T>(value);
@@ -80,7 +77,6 @@ namespace DataStructures
       {
         if (current.Value.Equals(value))
         {
-
           tempNode = current.Next;
           current.Next = newNode;
           newNode.Next = tempNode;

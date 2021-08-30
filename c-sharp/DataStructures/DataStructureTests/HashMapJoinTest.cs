@@ -1,14 +1,12 @@
-using System;
-using System.Collections.Generic;
 using DataStructures;
 using DataStructures.HashMap;
+using System.Collections.Generic;
 using Xunit;
 
 namespace DataStructuresTest
 {
   public class HashMapJoinTest : HashMapJoin
   {
-
     [Fact]
     public void CanJoinTables()
     {
@@ -18,8 +16,6 @@ namespace DataStructuresTest
       potatoNames.Set("plopy", "MashedPotato");
       potatoNames.Set("tater", "DumbPotato");
       potatoNames.Set("spud", "FrenchFry");
-
-    
 
       HashMapPrimary potatoNames2 = new HashMapPrimary(1024);
 
@@ -42,7 +38,3 @@ namespace DataStructuresTest
     }
   }
 }
- 
-
-
-

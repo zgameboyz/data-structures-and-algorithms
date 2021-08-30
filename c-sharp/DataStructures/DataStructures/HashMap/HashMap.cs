@@ -1,18 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataStructures
 {
   public class HashMapPrimary
   {
-
     public LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
 
     /// <summary>
-    /// 
+    ///
     /// </summary>
     /// <param name="size">Number of Buckets</param>
     public HashMapPrimary(int size)
@@ -20,10 +16,10 @@ namespace DataStructures
       // Create a list of the size
       Map = new LinkedList<KeyValuePair<string, string>>[size];
     }
+
     // Making public for testing not in real life
     public int Hash(string key)
     {
-
       int hashValue = 0;
 
       char[] letters = key.ToCharArray();
@@ -36,7 +32,6 @@ namespace DataStructures
       hashValue = (hashValue * 599) % Map.Length;
 
       return hashValue;
-
     }
 
     public void Set(string key, string value)
@@ -52,12 +47,10 @@ namespace DataStructures
 
       KeyValuePair<string, string> entry = new KeyValuePair<string, string>(key, value);
       Map[hashKey].Insert(entry);
-
     }
 
     public bool Contains(string key)
     {
-
       int hashKey = Hash(key);
 
       if (Map[hashKey!] != null)
@@ -113,6 +106,5 @@ namespace DataStructures
         Console.WriteLine();
       }
     }
-
   }
 }

@@ -1,50 +1,32 @@
-using System;
+
 
 namespace DataStructures
 {
-  internal class Program : QuickSort
+  internal class Program : GraphMethods<string>
   {
     private static void Main(string[] args)
     {
-      int[] arr = { 2, 6, 8, 7, 1, 9, 10, 58 };
+      GraphCoolness();
+    }
 
-      QuicksortArray(arr, 0, arr.Length - 1);
+    private static void GraphCoolness()
+    {
+      Graph<string> graph = new Graph<string>();
 
-      for (int i = 0; i < arr.Length; i++)
-      {
-        Console.WriteLine(arr[i]);
-      }
+      var aNode = graph.AddNode("A");
+      var bNode = graph.AddNode("B");
+      var cNode = graph.AddNode("C");
+      var dNode = graph.AddNode("D");
+      var eNode = graph.AddNode("E");
+      
 
-      //for (int i =0; i <arr.Length; i++) {
-      //  Console.WriteLine(sorted[i]);
+      graph.AddEdge(aNode, bNode, 2);
+      graph.AddEdge(aNode, cNode, 4);
+      graph.AddEdge(bNode, cNode, 5);
+      graph.AddEdge(dNode, eNode, 8);
+      graph.AddEdge(aNode, eNode, 3);
 
-      //}
-      //BinaryTree<int> tree = new BinaryTree<int>();
-
-      //Node<int> One = new Node<int>(2);
-      //Node<int> Two = new Node<int>(7);
-      //Node<int> Three = new Node<int>(5);
-      //Node<int> Four = new Node<int>(2);
-      //Node<int> Five = new Node<int>(6);
-      //Node<int> Six = new Node<int>(9);
-      //Node<int> Seven = new Node<int>(5);
-      //Node<int> Eight = new Node<int>(11);
-      //Node<int> Nine = new Node<int>(4);
-      //tree.Root = One;
-      //One.Left = Two;
-      //One.Right = Three;
-      //Two.Left = Four;
-      //Two.Right = Five;
-      //Three.Right = Six;
-      //Five.Left = Seven;
-      //Five.Right = Eight;
-      //Six.Left = Nine;
-
-      //List<int> list = LevelOrderTraversal(tree);
-      //foreach (int num in list)
-      {
-        //Console.Write($"{num} ");
-      }
+      graph.GetNodes();
     }
   }
 }

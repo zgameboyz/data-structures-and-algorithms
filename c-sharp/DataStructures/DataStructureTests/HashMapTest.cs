@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using DataStructures;
 using Xunit;
 
@@ -7,12 +5,9 @@ namespace DataStructuresTest
 {
   public class HashMapTest
   {
-
     [Fact]
-
     public void CanAddValue()
     {
-
       HashMapPrimary potatoNames = new HashMapPrimary(1024);
 
       potatoNames.Set("spud", "HushPuppy");
@@ -20,9 +15,8 @@ namespace DataStructuresTest
       potatoNames.Set("tater", "DumbPotato");
 
       Assert.True(potatoNames.Contains("spud"));
-
-
     }
+
     [Fact]
     public void CanGetValue()
     {
@@ -32,8 +26,9 @@ namespace DataStructuresTest
       potatoNames.Set("plopy", "MashedPotato");
       potatoNames.Set("tater", "DumbPotato");
 
-      Assert.Equal("MashedPotato",potatoNames.Get("plopy"));
+      Assert.Equal("MashedPotato", potatoNames.Get("plopy"));
     }
+
     [Fact]
     public void CanHandleNull()
     {
@@ -45,6 +40,7 @@ namespace DataStructuresTest
 
       Assert.Equal("No Such Thing", potatoNames.Get("Banana"));
     }
+
     [Fact]
     public void CanHandleCollisions()
     {
@@ -56,8 +52,8 @@ namespace DataStructuresTest
       potatoNames.Set("spud", "FrenchFry");
 
       Assert.True(potatoNames.Contains("spud"));
-      
     }
+
     [Fact]
     public void CanRetreiveBucketCollisions()
     {
@@ -68,9 +64,9 @@ namespace DataStructuresTest
       potatoNames.Set("tater", "DumbPotato");
       potatoNames.Set("spud", "FrenchFry");
 
-      Assert.Equal("FrenchFry",potatoNames.Get("spud"));
-
+      Assert.Equal("FrenchFry", potatoNames.Get("spud"));
     }
+
     [Fact]
     public void CanHashKey()
     {
@@ -85,19 +81,12 @@ namespace DataStructuresTest
 
       bool isInRange = false;
 
-     if (0 <= banana && banana <= 1024)
+      if (0 <= banana && banana <= 1024)
       {
         isInRange = true;
       }
 
-
       Assert.True(isInRange);
-
     }
   }
-
 }
- 
-
-
-
